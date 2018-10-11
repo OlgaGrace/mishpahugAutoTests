@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EventCreation.iml" filepath="$PROJECT_DIR$/.idea/modules/EventCreation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EventCreation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EventCreation_main.iml" group="EventCreation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EventCreation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EventCreation_test.iml" group="EventCreation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mishpahugAutoTests.iml" filepath="$PROJECT_DIR$/.idea/mishpahugAutoTests.iml" />
+    </modules>
+  </component>
+</project>
