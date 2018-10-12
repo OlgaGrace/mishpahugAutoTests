@@ -51,10 +51,12 @@
       <file leaf-file-name="MishpahugLogIn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="196">
+              <caret line="45" column="95" selection-start-line="45" selection-start-column="95" selection-end-line="45" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1829#1830#0" expanded="true" />
+                <element signature="e#1919#1920#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -402,10 +404,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="39" />
+    <option name="x" value="161" />
+    <option name="y" value="85" />
     <option name="width" value="1594" />
-    <option name="height" value="948" />
+    <option name="height" value="917" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -666,20 +668,32 @@
     <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.11 at 14h 42m 24s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 21h 36m 21s.xml">
+      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 21h 39m 57s.xml">
+      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 21h 46m 12s.xml">
+      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MishpahugLogIn_(1) - 2018.10.12 at 21h 49m 00s.xml">
+      <configuration name="MishpahugLogIn (1)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="39" width="1594" height="948" extended-state="0" />
+    <frame x="54" y="29" width="1594" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info active="true" anchor="bottom" id="Messages" order="4" visible="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.34146342" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.28554642" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.5378049" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
@@ -706,7 +720,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java</url>
+          <line>42</line>
+          <properties class="MishpahugLogIn" method="fillEventName">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -752,10 +776,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="196">
+          <caret line="45" column="95" selection-start-line="45" selection-start-column="95" selection-end-line="45" selection-end-column="95" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1919#1920#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,7 +803,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited />
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 
@@ -12,12 +13,22 @@ public class MishpahugLogIn extends TestBase {
         fillEventName();
         selectHoliday();
         fillAddress();
-        choseDate();
+        choseDateBegin();
+       /* choseDateEnd();
+        choseTimeBegin();
+        choseTimeEnd();
+        choseConfession();
+        choseKitchen();
+*/
+
     }
     private void selectHoliday() {
-        new Select(driver.findElement(By.xpath("//mat-select[@id='mat-select-5']//div[@class='mat-select-value']").selectByVisibleText("Shabat")));
+        WebElement element = driver.findElement(By.xpath("//mat-select[@id='mat-select-5']"));
+        Select oSelect = new Select(element);
+        oSelect.selectByVisibleText("Shabbat");
+      //  new Select(driver.findElement(By.xpath("//mat-select[@id='mat-select-5']").selectByVisibleText("Shabat")));
     }
-    private void choseDate() {
+    private void choseDateBegin() {
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='From:'])[1]/following::mat-icon[1]")).click();
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='OCT'])[1]/following::div[14]")).click();
     }
@@ -30,13 +41,13 @@ public class MishpahugLogIn extends TestBase {
     }
 
     private void fillEventName() {
-        driver.findElement(By.id("mat-input-44")).click();
-        driver.findElement(By.id("mat-input-44")).clear();
-        driver.findElement(By.id("mat-input-44")).sendKeys("newEventCreation");
+        driver.findElement(By.xpath("//input[@id='mat-input-7']")).click();
+        driver.findElement(By.xpath("//input[@id='mat-input-7']")).clear();
+        driver.findElement(By.xpath("//input[@id='mat-input-7']")).sendKeys("newEventCreation");
     }
 
     private void initCreateEvent() {
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Add Event'])[1]/following::div[5]")).click();
+        driver.findElement(By.cssSelector("[mattooltip='Add new Event']")).click();
     }
 
 
