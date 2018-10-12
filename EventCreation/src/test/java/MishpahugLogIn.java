@@ -41,13 +41,13 @@ public class MishpahugLogIn extends TestBase {
     }
 
     private void fillEventName() {
-        driver.findElement(By.xpath("//input[@id='mat-input-7']")).click();
-        driver.findElement(By.xpath("//input[@id='mat-input-7']")).clear();
-        driver.findElement(By.xpath("//input[@id='mat-input-7']")).sendKeys("newEventCreation");
+        driver.findElement(By.xpath("//input[@id='mat-input-28']")).click();
+        driver.findElement(By.xpath("//input[@id='mat-input-28']")).clear();
+        driver.findElement(By.xpath("//input[@id='mat-input-28']")).sendKeys("newEventCreation");
     }
 
     private void initCreateEvent() {
-        driver.findElement(By.cssSelector("[mattooltip='Add new Event']")).click();
+        driver.findElement(By.xpath("//div[@mattooltip='Add new Event']")).click();
     }
 
 
