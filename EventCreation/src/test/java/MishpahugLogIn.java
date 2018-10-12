@@ -37,10 +37,7 @@ public class MishpahugLogIn extends TestBase {
     }
 
     private void selectHoliday() {
-        new Select (driver.findElement(By.xpath(//mat-select[@id='mat-select-37']//div[@class='mat-select-value']).
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Add Event'])[1]/following::span[4]")).click();
-        driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::span[1]")).click();
-
+        new Select(driver.findElement(By.xpath("//mat-select[@id='mat-select-5']//div[@class='mat-select-value']").selectByVisibleText("Shabat");
 
     }
 
