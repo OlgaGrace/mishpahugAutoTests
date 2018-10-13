@@ -12,9 +12,9 @@ public class MishpahugLogIn extends TestBase {
         initCreateEvent();
         fillEventName();
         selectHoliday();
-        fillAddress();
+        /* fillAddress();
         choseDateBegin();
-       /* choseDateEnd();
+       choseDateEnd();
         choseTimeBegin();
         choseTimeEnd();
         choseConfession();
@@ -23,7 +23,7 @@ public class MishpahugLogIn extends TestBase {
 
     }
     private void selectHoliday() {
-        WebElement element = driver.findElement(By.xpath("//mat-select[@id='mat-select-5']"));
+        WebElement element = driver.findElement(By.cssSelector("span.mat-select-placeholder.ng-tns-c11-82.ng-star-inserted"));
         Select oSelect = new Select(element);
         oSelect.selectByVisibleText("Shabbat");
       //  new Select(driver.findElement(By.xpath("//mat-select[@id='mat-select-5']").selectByVisibleText("Shabat")));
@@ -41,13 +41,13 @@ public class MishpahugLogIn extends TestBase {
     }
 
     private void fillEventName() {
-        driver.findElement(By.xpath("//input[@id='mat-input-28']")).click();
-        driver.findElement(By.xpath("//input[@id='mat-input-28']")).clear();
-        driver.findElement(By.xpath("//input[@id='mat-input-28']")).sendKeys("newEventCreation");
+        driver.findElement(By.cssSelector("[formcontrolname=\"title\"]")).click();
+        driver.findElement(By.cssSelector("[formcontrolname=\"title\"]")).clear();
+        driver.findElement(By.cssSelector("[formcontrolname=\"title\"]")).sendKeys("newEventCreation");
     }
 
     private void initCreateEvent() {
-        driver.findElement(By.xpath("//div[@mattooltip='Add new Event']")).click();
+        driver.findElement(By.cssSelector("[mattooltip='Add new Event']")).click();
     }
 
 

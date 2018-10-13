@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66eb46e7-7da1-48bf-a101-c9ca02d95ffe" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/EventCreation/.gradle/" />
@@ -51,12 +50,12 @@
       <file leaf-file-name="MishpahugLogIn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+            <state relative-caret-position="475">
+              <caret line="25" column="122" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1829#1830#0" expanded="true" />
-                <element signature="e#1919#1920#0" expanded="true" />
+                <element signature="e#1883#1884#0" expanded="true" />
+                <element signature="e#1976#1977#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,8 +64,17 @@
       <file leaf-file-name="MishpahugAddNewEvent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
+            <state relative-caret-position="-41">
               <caret line="37" column="127" selection-start-line="36" selection-start-column="4" selection-end-line="37" selection-end-column="127" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AssertGroupCreation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/AssertGroupCreation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -399,11 +407,12 @@
         <option value="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent.java" />
         <option value="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent3.java" />
         <option value="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent2.java" />
+        <option value="$PROJECT_DIR$/EventCreation/src/test/java/AssertGroupCreation.java" />
         <option value="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="20" />
     <option name="y" value="61" />
     <option name="width" value="1594" />
@@ -653,21 +662,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MishpahugLogIn_(1) - 2018.10.12 at 21h 51m 27s.xml">
-      <configuration name="MishpahugLogIn (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 21h 57m 06s.xml">
-      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 22h 01m 56s.xml">
-      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 22h 04m 54s.xml">
-      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 22h 09m 43s.xml">
-      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 22h 14m 12s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
@@ -683,6 +677,21 @@
     <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 23h 40m 02s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 23h 44m 05s.xml">
+      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 17h 52m 13s.xml">
+      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 17h 56m 19s.xml">
+      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 18h 37m 39s.xml">
+      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 18h 41m 57s.xml">
+      <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="61" width="1594" height="917" extended-state="0" />
@@ -696,7 +705,7 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.35243902" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.46341464" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
@@ -762,19 +771,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
+        <state relative-caret-position="-41">
           <caret line="37" column="127" selection-start-line="36" selection-start-column="4" selection-end-line="37" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/AssertGroupCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="475">
+          <caret line="25" column="122" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1829#1830#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1976#1977#0" expanded="true" />
           </folding>
         </state>
       </provider>
