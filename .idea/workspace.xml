@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66eb46e7-7da1-48bf-a101-c9ca02d95ffe" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/EventCreation/src/test/java/AssertEventCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventCreation/out/test/classes/AssertGroupCreation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventCreation/out/test/classes/MishpahugLogIn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventCreation/out/test/classes/com/example/tests/MishpahugAddNewEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventCreation/src/test/java/AssertGroupCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/EventCreation/.gradle/" />
@@ -50,31 +57,29 @@
       <file leaf-file-name="MishpahugLogIn.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="122" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
+            <state relative-caret-position="-286">
+              <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1883#1884#0" expanded="true" />
-                <element signature="e#1976#1977#0" expanded="true" />
+                <element signature="e#646#647#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
+                <element signature="e#2046#2047#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MishpahugAddNewEvent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent.java">
+      <file leaf-file-name="AssertEventCreation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/AssertEventCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="37" column="127" selection-start-line="36" selection-start-column="4" selection-end-line="37" selection-end-column="127" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AssertGroupCreation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/AssertGroupCreation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="240">
+              <caret line="20" column="85" lean-forward="true" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +87,7 @@
       <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-205">
+            <state relative-caret-position="169">
               <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -408,13 +413,14 @@
         <option value="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent3.java" />
         <option value="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent2.java" />
         <option value="$PROJECT_DIR$/EventCreation/src/test/java/AssertGroupCreation.java" />
+        <option value="$PROJECT_DIR$/EventCreation/src/test/java/AssertEventCreation.java" />
         <option value="$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="61" />
+    <option name="x" value="23" />
+    <option name="y" value="111" />
     <option name="width" value="1594" />
     <option name="height" value="917" />
   </component>
@@ -491,6 +497,40 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="AssertEventCreation.AssertEventCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EventCreation_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertEventCreation" />
+      <option name="METHOD_NAME" value="AssertEventCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AssertEventCreation.openMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EventCreation_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AssertEventCreation" />
+      <option name="METHOD_NAME" value="openMenu" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -507,16 +547,16 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MishpahugLogIn (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertEventCreation.AssertEventCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EventCreation_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MishpahugLogIn" />
-      <option name="METHOD_NAME" />
+      <option name="MAIN_CLASS_NAME" value="AssertEventCreation" />
+      <option name="METHOD_NAME" value="AssertEventCreation" />
       <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -530,19 +570,13 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="MishpahugLogIn" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MishpahugLogIn (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="EventCreation_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.MishpahugLogIn" />
+      <option name="MAIN_CLASS_NAME" value="MishpahugLogIn" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -582,35 +616,6 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Mishpahug.testMishpahug" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="EventCreation_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="com.example.tests.Mishpahug" />
-      <option name="METHOD_NAME" value="testMishpahug" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <properties />
-      <listeners />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -634,17 +639,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="TestNG.Mishpahug.testMishpahug" />
-      <item itemvalue="TestNG.MishpahugLogIn" />
       <item itemvalue="TestNG.MishpahugLogIn.testMishpahug" />
       <item itemvalue="TestNG.MishpahugLogIn (1)" />
+      <item itemvalue="JUnit.AssertEventCreation.openMenu" />
+      <item itemvalue="JUnit.AssertEventCreation.AssertEventCreation" />
+      <item itemvalue="TestNG.AssertEventCreation.AssertEventCreation" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MishpahugLogIn.testMishpahug" />
+        <item itemvalue="TestNG.AssertEventCreation.AssertEventCreation" />
+        <item itemvalue="JUnit.AssertEventCreation.AssertEventCreation" />
+        <item itemvalue="JUnit.AssertEventCreation.openMenu" />
         <item itemvalue="TestNG.MishpahugLogIn (1)" />
-        <item itemvalue="TestNG.MishpahugLogIn" />
-        <item itemvalue="TestNG.Mishpahug.testMishpahug" />
       </list>
     </recent_temporary>
   </component>
@@ -662,39 +669,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 22h 14m 12s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 20h 11m 14s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 22h 17m 50s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 20h 26m 12s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 23h 30m 32s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 20h 28m 02s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 23h 34m 41s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 20h 31m 17s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 23h 40m 02s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 21h 32m 40s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.12 at 23h 44m 05s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 21h 39m 45s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 17h 52m 13s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 21h 47m 00s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 17h 56m 19s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 21h 55m 10s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 18h 37m 39s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 21h 57m 45s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 18h 41m 57s.xml">
+    <history-entry file="MishpahugLogIn_testMishpahug - 2018.10.13 at 22h 00m 47s.xml">
       <configuration name="MishpahugLogIn.testMishpahug" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="61" width="1594" height="917" extended-state="0" />
+    <frame x="23" y="111" width="1594" height="917" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -705,12 +712,12 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.46341464" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3695122" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2525773" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25193298" />
       <window_info anchor="bottom" id="Build" order="3" />
       <window_info anchor="right" id="Gradle" order="1" weight="0.32925257" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
@@ -750,18 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1292#1293#0" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-249">
@@ -771,26 +766,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugAddNewEvent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
+        <state relative-caret-position="-136">
           <caret line="37" column="127" selection-start-line="36" selection-start-column="4" selection-end-line="37" selection-end-column="127" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/AssertGroupCreation.java">
+    <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="169">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1357#1358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/AssertEventCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="85" lean-forward="true" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EventCreation/src/test/java/MishpahugLogIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="122" selection-start-line="25" selection-start-column="122" selection-end-line="25" selection-end-column="122" />
+        <state relative-caret-position="-286">
+          <caret line="17" column="6" lean-forward="true" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1883#1884#0" expanded="true" />
-            <element signature="e#1976#1977#0" expanded="true" />
+            <element signature="e#646#647#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -812,7 +826,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
